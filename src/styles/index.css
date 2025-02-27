@@ -9,3 +9,56 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#navbar-section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#container-section{
+    padding-top: 5em;
+}
+
+#header{
+    font-size: 10rex;
+}
+
+#header-section{
+    width: 100%;
+    padding: 5em;
+    background-color: aqua;
+}
+
+#card-section{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.my-button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.my-button:hover {
+    background-color: #45a049;
+  }
+  
+  .my-button:active {
+    background-color: #3e8e41;
+  }
+
+#navbarNavDropdown{
+    flex-grow: 0;
+}
+
+#footer-section{
+    color: white;
+    padding-top: 2em;
+    text-align: center;
+}
